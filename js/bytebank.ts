@@ -1,4 +1,4 @@
-let saldo = 3000;
+let saldo = 5000;
 const elementoSaldo = document.querySelector(".saldo-valor .valor") as HTMLElement;
 
 if (elementoSaldo != null) {
@@ -45,4 +45,4 @@ elementoForumulario.addEventListener("submit", function(event) {
 
     elementoForumulario.reset();
 
-});
+}); 
